@@ -8,6 +8,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Interactive pricing component</title>
 </head>
@@ -22,20 +24,23 @@
 
   <div class="container">
     <div class="top-container">
-      <p>Pageviews</p>
-      <p> $ /month</p>
+      <p><span class="page-views">100K</span> Pageviews</p>
+      <p><span class="money">$16.00 </span>/month</p>
     </div>
 
-    <div class="barre-grise">
-      <div class="barre-color"></div>
-      <div class="barre-image"></div>
+    <div class="barre">
+      <input type="range" min="0" max="100" class="slider"></input>
     </div>
 
     <div class="abonnement">
-      <p>  Monthly Billing</p>
-      <button><div></div></button>
+      <p> Monthly Billing</p>
+      <button>
+        <div></div>
+      </button>
       <p>Yearly Billing <span>25% discount</span></p>
     </div>
+
+    
 
     <div class="barre-bottom"></div>
 
@@ -47,16 +52,19 @@
       </div>
       <div class="right-bottom">Start my trial</div>
     </div>
-
+    
+    
   </div>
 
 
 
-  
 
-  
-  
-  
+
+
+
+
+
+
 
 
   <div class="attribution">
